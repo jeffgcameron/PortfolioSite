@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <title>Jeff Cameron</title>
+    <link rel="icon" href="./Assets/images/logogrey.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+
+        <nav>
+            <a class="navbar-brand" href="index.html">
+                <img class= "logo-style" src="./Assets/images/logogrey.png" height="30px" alt="logo">
+            </a>
+            <span class="navbar-text">
+                <ul class="nav">
+                    <li class="nav-item full">
+                        <a class="nav-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item full">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item full">
+                        <a class="nav-link" href="./Contact.html">Contact Info</a>
+                    </li>
+                    <li class="nav-item full">
+                        <a target = "_blank" class="nav-link" href="./Assets/Resume/Jeffrey G. Cameron Resume.pdf" download>Resume</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- <a class="dropdown-item" href="./AboutMe.html">About Me</a> -->
+                            <a class="dropdown-item" href="#about-me">About Me</a>
+                            <a class="dropdown-item" href="#portfolio">Portfolio</a>
+                            <a class="dropdown-item" href="./Contact.html">Contact Info</a>
+                            <a target = "_blank" class="dropdown-item" href="./Assets/Resume/Jeff Cameron Resume.pdf">Resume</a>
+                        </div>
+                    </li>
+                </ul>
+            </span>
+        </nav>
+      <!-- <nav class="row">
+        <div class="col-3 nav-title">
+          <a class="nav-links">About Me</a>
+        </div>
+        <div class="col-3 nav-title">
+          <a class="nav-links">Portfolio</a>
+        </div>
+        <div class="col-3 nav-title">
+          <a class="nav-links">Contact</a>
+        </div>
+        <div class="col-3 nav-title">
+          <a class="nav-links">Resume</a>
+        </div>
+      </nav> -->
+    
+    </header>
+    
+<div class="top">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <img
+          class="propic"
+          src="./Assets/Images/square tour copy.png"
+          alt="Profile Picture"
+        />
+      </div>
+      <div class="col-3"></div>
+    </div>
+    <h1>Jeff Cameron</h1>
+    <h2>Web Developer</h2>
+</div>
+    <div class="row header">
+        <div class="col-5 header-line">
+          <hr class="logo-line" />
+        </div>
+        <div class="col-2">
+          <img class="logo-center" src="./Assets/Images/newlogo.png" />
+        </div>
+        <div class="col-5 header-line">
+          <hr class="logo-line" />
+        </div>
+    </div>
+
+    <div id= "about-me" class="row about-me-row">
+        <div class="col-6 about-me-div section-div">
+            <p class="about-me section">About Me</p>
+        </div>
+        <div class="col-6 about-me-text">
+            Hi my name is Jeff and I am a web developer living in Jackson, Wy. I
+            graduated from Elon University in 2016 with a Bachelors Degree in
+            Business Management and a minor in Asian Studies, and recently completed
+            The University of Denver's full stack coding bootcamp in June, 2021. I
+            started coding on my own as a way to challenge myself and learn a new
+            skill. The fusion of creativity and logic sparked my intest and I soon
+            found myself pursuing a new carrer rather than hobby. When I am not
+            coding, I can be found exploring Jackson's surrounding mountains and
+            rivers. My favorite hobbies include skiing, mountain biking, rafting,
+            surfing, scuba diving, rollerblading and fly fishing.
+        </div>
+    </div>
+
+
+    <div id ="portfolio" class="portfolio-div section-div">
+      <p class="portfolio section">Portfolio</p>
+    </div>
+
+    <div class="row card-row">
+        <a class= "card-content" href="https://tranquil-bastion-55254.herokuapp.com/">
+        <div class="col-md-4 col-sm-12 card-col">
+            <div class="card" style="width: 75%;">
+                <img src="./Assets/images/GroceryGrab.png" class="card-img-top img-thumbnail" alt="GroceryGrab">
+                <div class="card-body">
+                    <h5 class="card-title">GroceryGrab</h5>
+                    <p class="card-text">GroceryGrab allows users to create and save a grocery list.</p>
+                    <!-- <a href="https://tranquil-bastion-55254.herokuapp.com/" class="btn btn-primary">Visit GroceryGrab</a> -->
+                </div>
+            </div>
+        </a>
+        </div>
+        <div class="col-md-4 col-sm-12 a card-col">
+            <div class="card" style="width: 75%;">
+                <img src="./Assets/images/CineMunch.png" class="card-img-top img-thumbnail" alt="CineMunch">
+                <div class="card-body">
+                    <h5 class="card-title">CineMunch</h5>
+                    <p class="card-text">CineMunch helps users chose movies and local restaurant options.</p>
+                    <!-- <a href="https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/" class="btn btn-primary">Visit CinmeMunch</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 a card-col">
+            <div class="card" style="width: 75%;">
+                <img src="./Assets/images/DevDash.png" class="card-img-top img-thumbnail" alt="DevDash">
+                <div class="card-body">
+                    <h5 class="card-title">DevDash</h5>
+                    <p class="card-text">Social media app that helps connects new developers.</p>
+                    <!-- <a href="https://salty-reef-93783.herokuapp.com/" class="btn btn-primary">DevDash Github</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row card-row">
+        <div class="col-md-4 col-sm-12 a card-col">
+            <div class="card" style="width: 75%;">
+                <img src="./Assets/images/EmployeeDirectory.png" class="card-img-top img-thumbnail" alt="Employee-Directory">
+                <div class="card-body">
+                    <h5 class="card-title">Employee Directory</h5>
+                    <p class="card-text">Use this Directoy to serach for employees or filter by name.</p>
+                    <!-- <a href="https://jeffgcameron.github.io/JavascriptQuiz/" class="btn btn-primary">Visit the Directory</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 a card-col">
+            
+            <div class="card" style="width: 75%;">
+                <img src="./Assets/images/TechBlog.png" class="card-img-top img-thumbnail" alt="TechBlog">
+                <div class="card-body">
+                    <h5 class="card-title">Tech Blog</h5>
+                    <p class="card-text">This app allowes users to sign in, or sign up, and create blog posts.</p>
+                    <!-- <a href="https://salty-reef-93783.herokuapp.com/" class="btn btn-primary">Start your Blog</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 a card-col">
+            <div class="card" style="width: 75%;">
+                <img src="./Assets/images/Quiz.png" class="card-img-top img-thumbnail" alt="Quiz">
+                <div class="card-body">
+                    <h5 class="card-title">Quiz</h5>
+                    <p class="card-text">How well do you know me? Take this multiple choice quiz to find out!</p>
+                    <!-- <a href="https://jeffgcameron.github.io/JavascriptQuiz/" class="btn btn-primary">Take Quiz</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row card-row">
+        <div class="col-md-4 col-sm-12 a card-col">
+            <div class="card" style="width: 75%;">
+                <img src="./Assets/images/README.png" class="card-img-top img-thumbnail" alt="README Generator">
+                <div class="card-body">
+                    <h5 class="card-title">README Generator</h5>
+                    <p class="card-text">Generate a professional README file using node.js.</p>
+                    <!-- <a href="#" class="btn btn-primary">Create a README</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 a card-col">
+            <div class="card" style="width: 75%;">
+                <img src="./Assets/images/Password.png" class="card-img-top img-thumbnail" alt="Password Generator">
+                <div class="card-body">
+                    <h5 class="card-title">Password Generator</h5>
+                    <p class="card-text">Generate a password based on your own chosen criteria.</p>
+                    <!-- <a href="#" class="btn btn-primary">Generate a Password</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 a card-col">
+            <div class="card" style="width: 75%;">
+                <img src="./Assets/images/Quiz.png" class="card-img-top img-thumbnail" alt="Quiz">
+                <div class="card-body">
+                    <h5 class="card-title">Quiz</h5>
+                    <p class="card-text">How well do you know me? Take this multiple choice quiz to find out!</p>
+                    <!-- <a href="https://jeffgcameron.github.io/JavascriptQuiz/" class="btn btn-primary">Take Quiz</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="row contact-row">
+        <div class="col-6 contact-div section-div">
+            <p class="contact section">Contact</p>
+        </div>
+        <div class="col-3 contact-text">
+            <h4>Email</h4>
+            <a class="info" href="mailto: jeffgcameron@gmail.com"> jeffgcameron@gmail</a>
+            <h4>Phone</h4>
+            <a class="info" href="tel:6179108804"> (617) 910-8804</a>
+
+        </div>
+        <div class="col-3 contact-text">
+            <h4>Mailing Address</h4>
+            <p class="info">PO Box 13681</p>
+            <p class="info">Jackson, Wyoming</p>
+            <p class="info">83002</p>
+        </div>
+       
+    </div> -->
+
+    
+    <footer class="port-footer">
+        <div id = "contact" class="footer-contact">
+            <!-- <h4>Email</h4> -->
+            <i class="far fa-envelope"></i>
+            <a class="info" href="mailto: jeffgcameron@gmail.com"> jeffgcameron@gmail</a>
+            <h4>Phone</h4>
+            <a class="info" href="tel:6179108804"> (617) 910-8804</a>
+            <h4>Mailing Address</h4>
+            <p class="info">PO Box 13681</p>
+            <p class="info">Jackson, Wyoming</p>
+            <p class="info">83002</p>
+        </div>
+        <section class="media row">
+            <a a target="_blank" rel="noopener noreferrer" href="https://github.com/jeffgcameron">
+                <i class="social fab fa-github"></i>
+                </a>
+                <a a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/mynamesjefph/">
+                    <i class="social fab fa-instagram"></i>
+                </a>
+                <a a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jeff-cameron-1a6790102/">
+                    <i class="social fab fa-linkedin-in"></i>
+                </a>
+        </section> 
+    </footer> 
+  </body>
+</html>

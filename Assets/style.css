@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+header {
+    position: relative;
+    background-color: rgb(49, 84, 119);
+    border-bottom-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-width: .5;
+    height: 50px;
+    padding-bottom: 25px;
+}
+
+.header {
+    padding-bottom: 25px;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar-text {
+    padding: 0;
+}
+
+.navbar-brand {
+    margin-left: 5px;
+    align-items: center;
+}
+
+.nav-link {
+    color: rgb(214, 214, 214); 
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    color: rgb(43, 43, 43);
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown-toggle div {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(214, 214, 214); 
+    margin: 5px;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.header-line {
+    margin: auto;
+}
+
+hr {
+    border-top: 1px solid rgba(219, 189, 127);
+}
+
+.logo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nav-title {
+text-align: center;
+margin: auto;
+}
+
+.nav-links {
+    color:  white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links:hover {
+    color:  rgba(219, 189, 127);
+    text-decoration: none;
+}
+
+.propic {
+    width: 50%;
+    display: block;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: rgb(200, 200, 200); 
+    border-width: 1;
+}
+
+.name-title {
+    margin: auto;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(43, 43, 43);
+    margin-bottom: 0;
+}
+
+h2 {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(43, 43, 43);
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 20px;
+}
+
+.top {
+      background-image: url(./Images/mountain-opacity.png);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+}
+
+.section-div {
+    display: block;
+    text-align: center;
+    margin: auto;
+    /* background-image: url(./Images/mountain-opacity.png); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    line-height: 200px;
+}
+
+.about-me-div {
+    /* background-image: url(./Images/mountain-opacity.png); */
+    background-image: url(./Images/deserty\ opacity.png);
+    background-size: cover;
+    margin: 0;
+}
+
+.portfolio-div {
+   /* background-image: url(./Images/deserty\ opacity.png); */
+   /* background-image: url(./Images/mountain-opacity.png); */
+   background-image: url(./Images/oceanopacity.png);
+}
+
+.contact-div {
+    background-image: url(./Images/oceanopacity.png);
+    background-size: cover;
+}
+
+.section{
+    margin: auto;
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    color:  rgb(43, 43, 43);
+}
+
+.about-me-row {
+ padding-bottom: 25px;
+}
+
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 5px;
+    /* background-color:   rgba(105, 124, 160, 0.9); */
+    /* background-image: url(./Images/mountain-opacity.png); */
+    /* background-image: url(./Images/deserty\ opacity.png); */
+    background-image: url(./Images/oceanopacity.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    opacity: .6;
+}
+
+/* .card-content {
+    opacity: .6;
+} */
+
+.card-content :hover {
+opacity: 1;
+text-decoration: none;
+}
+
+.card-body :hover{
+text-decoration: none;
+}
+
+a :hover {
+    text-decoration: none;
+}
+
+.card-title {
+    color: rgb(214, 214, 214); 
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+}
+
+.card-text {
+    color: rgb(214, 214, 214); 
+}
+
+.card-col {
+    padding-top: 25px;
+}
+
+.img-thumbnail {
+    /* padding: 0;
+    border: 0;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-top: 5px; */
+    padding: 5px;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn {
+    color:  rgba(105, 124, 160);
+    background-color: rgb(214, 214, 214);
+    border-style: none;
+}
+
+.btn:hover {
+background-color: rgb(43, 43, 43);
+color: rgb(214, 214, 214);
+}
+
+.info {
+    margin: 0;
+    margin-left: 10px;
+    color: rgb(43, 43, 43);
+    font-family: 'Lora', serif;
+    font-weight: normal;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+}
+
+.card-text, .card-title {
+    color: rgb(43, 43, 43);
+}
+
+.contact-row{
+    padding-top: 25px;
+}
+
+footer {
+    position: relative;
+    display: flex; 
+    align-items: center;
+    /* height: 50px; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(49, 84, 119);
+    border-top-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-width: .5;
+    margin-top: 25px;
+}
+
+.media {
+    margin-left: auto;
+    margin-right: auto;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color:rgb(214, 214, 214);
+    border-width: .2px;
+}
+
+.social {
+    margin-left: 5px;
+    margin-right: 5px;
+    color:rgb(214, 214, 214);
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.social:hover {
+    color: rgb(43, 43, 43);
+}
+
+@media screen and (max-width: 768px) {
+
+    .dropdown {
+        display: flex;
+    }
+    .full {
+        display: none;
+    }
+    .about-p {
+        margin-top: 20px;
+    }
+
+    .dropdown-menu {
+        opacity: 75%;
+    }
+
+    .dropdown-item {
+       font-family: 'Lora', serif;
+    }
+
+    .dropdown-item:hover {
+        opacity: 100%;
+        font-weight: bolder;
+    }
+}
