@@ -48,12 +48,12 @@
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item full">
-                        <a class="nav-link" href="./Contact.html">Contact Info</a>
+                        <a class="nav-link" href="#contact">Contact Info</a>
                     </li>
                     <li class="nav-item full">
                         <a target = "_blank" class="nav-link" href="./Assets/Resume/Jeffrey G. Cameron Resume.pdf" download>Resume</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown burger">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="line1"></div>
@@ -61,30 +61,15 @@
                             <div class="line3"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <!-- <a class="dropdown-item" href="./AboutMe.html">About Me</a> -->
                             <a class="dropdown-item" href="#about-me">About Me</a>
                             <a class="dropdown-item" href="#portfolio">Portfolio</a>
-                            <a class="dropdown-item" href="./Contact.html">Contact Info</a>
+                            <a class="dropdown-item" href="#contact">Contact Info</a>
                             <a target = "_blank" class="dropdown-item" href="./Assets/Resume/Jeff Cameron Resume.pdf">Resume</a>
                         </div>
                     </li>
                 </ul>
             </span>
         </nav>
-      <!-- <nav class="row">
-        <div class="col-3 nav-title">
-          <a class="nav-links">About Me</a>
-        </div>
-        <div class="col-3 nav-title">
-          <a class="nav-links">Portfolio</a>
-        </div>
-        <div class="col-3 nav-title">
-          <a class="nav-links">Contact</a>
-        </div>
-        <div class="col-3 nav-title">
-          <a class="nav-links">Resume</a>
-        </div>
-      </nav> -->
     
     </header>
     
@@ -115,32 +100,38 @@
         </div>
     </div>
 
+    
+
     <div id= "about-me" class="row about-me-row">
-        <div class="col-6 about-me-div section-div">
-            <p class="about-me section">About Me</p>
+        <div class="col-md-9 col-sm-12">
+            <div id ="about-me" class="about-me-div section-div">
+                <p class="about-me section">About Me</p>
+              </div>
+            <p class="">Hi my name is Jeff and I am a web developer living in Jackson, WY. I
+                graduated from Elon University in 2016 with a Bachelor's Degree in
+                Business Management and a minor in Asian Studies, and recently completed
+                The University of Denver's full stack coding bootcamp in June, 2021. I
+                started coding on my own as a way to challenge myself and learn a new
+                skill. The fusion of creativity and logic sparked my intest and I soon
+                found myself pursuing a new career rather than hobby. When I am not
+                coding, I can be found exploring Jackson's surrounding mountains and
+                rivers. My favorite hobbies include skiing, mountain biking, rafting,
+                surfing, scuba diving, rollerblading and fly fishing.</p>
         </div>
-        <div class="col-6 about-me-text">
-            Hi my name is Jeff and I am a web developer living in Jackson, Wy. I
-            graduated from Elon University in 2016 with a Bachelors Degree in
-            Business Management and a minor in Asian Studies, and recently completed
-            The University of Denver's full stack coding bootcamp in June, 2021. I
-            started coding on my own as a way to challenge myself and learn a new
-            skill. The fusion of creativity and logic sparked my intest and I soon
-            found myself pursuing a new carrer rather than hobby. When I am not
-            coding, I can be found exploring Jackson's surrounding mountains and
-            rivers. My favorite hobbies include skiing, mountain biking, rafting,
-            surfing, scuba diving, rollerblading and fly fishing.
-        </div>
+        <img class="col-md-3 col-sm-12 gc" src="./Assets/Images/grand canyon overlook.jpeg">
+        </img>
     </div>
 
+   
 
     <div id ="portfolio" class="portfolio-div section-div">
       <p class="portfolio section">Portfolio</p>
     </div>
 
     <div class="row card-row">
-        <a class= "card-content" href="https://tranquil-bastion-55254.herokuapp.com/">
+        
         <div class="col-md-4 col-sm-12 card-col">
+            <a class= "card-content" href="https://tranquil-bastion-55254.herokuapp.com/">
             <div class="card" style="width: 75%;">
                 <img src="./Assets/images/GroceryGrab.png" class="card-img-top img-thumbnail" alt="GroceryGrab">
                 <div class="card-body">
@@ -152,6 +143,7 @@
         </a>
         </div>
         <div class="col-md-4 col-sm-12 a card-col">
+            <a class= "card-content" href="https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/">
             <div class="card" style="width: 75%;">
                 <img src="./Assets/images/CineMunch.png" class="card-img-top img-thumbnail" alt="CineMunch">
                 <div class="card-body">
@@ -160,8 +152,10 @@
                     <!-- <a href="https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/" class="btn btn-primary">Visit CinmeMunch</a> -->
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-md-4 col-sm-12 a card-col">
+            <a class= "card-content" href="https://salty-reef-93783.herokuapp.com/">
             <div class="card" style="width: 75%;">
                 <img src="./Assets/images/DevDash.png" class="card-img-top img-thumbnail" alt="DevDash">
                 <div class="card-body">
@@ -170,10 +164,12 @@
                     <!-- <a href="https://salty-reef-93783.herokuapp.com/" class="btn btn-primary">DevDash Github</a> -->
                 </div>
             </div>
+        </a>
         </div>
     </div>
     <div class="row card-row">
         <div class="col-md-4 col-sm-12 a card-col">
+            <a class= "card-content" href="https://tranquil-bastion-55254.herokuapp.com/">
             <div class="card" style="width: 75%;">
                 <img src="./Assets/images/EmployeeDirectory.png" class="card-img-top img-thumbnail" alt="Employee-Directory">
                 <div class="card-body">
@@ -182,9 +178,10 @@
                     <!-- <a href="https://jeffgcameron.github.io/JavascriptQuiz/" class="btn btn-primary">Visit the Directory</a> -->
                 </div>
             </div>
+        </a>
         </div>
         <div class="col-md-4 col-sm-12 a card-col">
-            
+            <a class= "card-content" href="https://salty-reef-93783.herokuapp.com/">
             <div class="card" style="width: 75%;">
                 <img src="./Assets/images/TechBlog.png" class="card-img-top img-thumbnail" alt="TechBlog">
                 <div class="card-body">
@@ -193,8 +190,10 @@
                     <!-- <a href="https://salty-reef-93783.herokuapp.com/" class="btn btn-primary">Start your Blog</a> -->
                 </div>
             </div>
+        </a>
         </div>
         <div class="col-md-4 col-sm-12 a card-col">
+            <a class= "card-content" href="https://tranquil-bastion-55254.herokuapp.com/">
             <div class="card" style="width: 75%;">
                 <img src="./Assets/images/Quiz.png" class="card-img-top img-thumbnail" alt="Quiz">
                 <div class="card-body">
@@ -203,10 +202,12 @@
                     <!-- <a href="https://jeffgcameron.github.io/JavascriptQuiz/" class="btn btn-primary">Take Quiz</a> -->
                 </div>
             </div>
+            </a>
         </div>
     </div>
     <div class="row card-row">
         <div class="col-md-4 col-sm-12 a card-col">
+            <a class= "card-content" href="https://tranquil-bastion-55254.herokuapp.com/">
             <div class="card" style="width: 75%;">
                 <img src="./Assets/images/README.png" class="card-img-top img-thumbnail" alt="README Generator">
                 <div class="card-body">
@@ -215,8 +216,10 @@
                     <!-- <a href="#" class="btn btn-primary">Create a README</a> -->
                 </div>
             </div>
+        </a>
         </div>
         <div class="col-md-4 col-sm-12 a card-col">
+            <a class= "card-content" href="https://tranquil-bastion-55254.herokuapp.com/">
             <div class="card" style="width: 75%;">
                 <img src="./Assets/images/Password.png" class="card-img-top img-thumbnail" alt="Password Generator">
                 <div class="card-body">
@@ -225,8 +228,10 @@
                     <!-- <a href="#" class="btn btn-primary">Generate a Password</a> -->
                 </div>
             </div>
+        </a>
         </div>
         <div class="col-md-4 col-sm-12 a card-col">
+            <a class= "card-content" href="https://jeffgcameron.github.io/JavascriptQuiz/">
             <div class="card" style="width: 75%;">
                 <img src="./Assets/images/Quiz.png" class="card-img-top img-thumbnail" alt="Quiz">
                 <div class="card-body">
@@ -235,43 +240,28 @@
                     <!-- <a href="https://jeffgcameron.github.io/JavascriptQuiz/" class="btn btn-primary">Take Quiz</a> -->
                 </div>
             </div>
+        </a>
         </div>
     </div>
 
-    <!-- <div class="row contact-row">
-        <div class="col-6 contact-div section-div">
-            <p class="contact section">Contact</p>
-        </div>
-        <div class="col-3 contact-text">
-            <h4>Email</h4>
-            <a class="info" href="mailto: jeffgcameron@gmail.com"> jeffgcameron@gmail</a>
-            <h4>Phone</h4>
-            <a class="info" href="tel:6179108804"> (617) 910-8804</a>
-
-        </div>
-        <div class="col-3 contact-text">
-            <h4>Mailing Address</h4>
-            <p class="info">PO Box 13681</p>
-            <p class="info">Jackson, Wyoming</p>
-            <p class="info">83002</p>
-        </div>
-       
-    </div> -->
-
     
     <footer class="port-footer">
-        <div id = "contact" class="footer-contact">
-            <!-- <h4>Email</h4> -->
-            <i class="far fa-envelope"></i>
+        <div class="row">
+        <div id = "contact" class="footer-contact col-6">
+            <h4>Email</i></h4>
+            
             <a class="info" href="mailto: jeffgcameron@gmail.com"> jeffgcameron@gmail</a>
             <h4>Phone</h4>
             <a class="info" href="tel:6179108804"> (617) 910-8804</a>
+        </div>
+        <div class="col-6 footer-contact">
             <h4>Mailing Address</h4>
             <p class="info">PO Box 13681</p>
             <p class="info">Jackson, Wyoming</p>
             <p class="info">83002</p>
         </div>
-        <section class="media row">
+    </div>
+        <div class="media row">
             <a a target="_blank" rel="noopener noreferrer" href="https://github.com/jeffgcameron">
                 <i class="social fab fa-github"></i>
                 </a>
@@ -281,7 +271,18 @@
                 <a a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jeff-cameron-1a6790102/">
                     <i class="social fab fa-linkedin-in"></i>
                 </a>
-        </section> 
+            </div> 
     </footer> 
   </body>
+
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"
+  ></script>
 </html>

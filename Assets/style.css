@@ -3,6 +3,15 @@
     padding: 0;
     }
 
+body {
+    /* background-color: rgb(236, 236, 236); */
+    background-image: url(./Images/oceanopacity.png);
+    background-size: cover;
+    background-position: center;
+     background-attachment: fixed;
+        
+}
+
 header {
     position: relative;
     background-color: rgb(49, 84, 119);
@@ -143,21 +152,43 @@ h2 {
     line-height: 200px;
 }
 
+#about-me {
+    margin-bottom: 25px;
+}
+
+.gc {
+    height: 100%;
+}
+
 .about-me-div {
     /* background-image: url(./Images/mountain-opacity.png); */
     background-image: url(./Images/deserty\ opacity.png);
     background-size: cover;
     margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+/* .about-me-text {
+    background-image: url(./Images/deserty\ opacity.png);
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+} */
 
 .portfolio-div {
    /* background-image: url(./Images/deserty\ opacity.png); */
    /* background-image: url(./Images/mountain-opacity.png); */
-   background-image: url(./Images/oceanopacity.png);
+   /* background-image: url(./Images/oceanopacity.png); */
+   background-image: url(./Images/autumn-op.png);
 }
 
 .contact-div {
-    background-image: url(./Images/oceanopacity.png);
+    /* background-image: url(./Images/oceanopacity.png); */
+    background-image: url(./Images/autumn-op.png);
     background-size: cover;
 }
 
@@ -182,28 +213,21 @@ h2 {
     /* background-color:   rgba(105, 124, 160, 0.9); */
     /* background-image: url(./Images/mountain-opacity.png); */
     /* background-image: url(./Images/deserty\ opacity.png); */
-    background-image: url(./Images/oceanopacity.png);
+    /* background-image: url(./Images/oceanopacity.png); */
+    background-image: url(./Images/autumn-op.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    opacity: .6;
+    opacity: .85;
+    text-decoration: none;
 }
 
-/* .card-content {
-    opacity: .6;
-} */
-
-.card-content :hover {
-opacity: 1;
-text-decoration: none;
+.card:hover {
+    opacity: 1;
 }
 
-.card-body :hover{
-text-decoration: none;
-}
-
-a :hover {
+.card-text {
     text-decoration: none;
 }
 
@@ -249,7 +273,7 @@ color: rgb(214, 214, 214);
 .info {
     margin: 0;
     margin-left: 10px;
-    color: rgb(43, 43, 43);
+    color:rgb(214, 214, 214);
     font-family: 'Lora', serif;
     font-weight: normal;
 }
@@ -257,6 +281,7 @@ color: rgb(214, 214, 214);
 h4 {
     margin-top: 15px;
     margin-bottom: 5px;
+    color:rgb(214, 214, 214);
     font-weight: bold;
     font-family: 'Poiret One', cursive;
 }
@@ -271,7 +296,7 @@ h4 {
 
 footer {
     position: relative;
-    display: flex; 
+    /* display: flex;  */
     align-items: center;
     /* height: 50px; */
     bottom: 0;
@@ -284,13 +309,26 @@ footer {
     margin-top: 25px;
 }
 
+.footer-contact {
+    text-align: center;
+}
+
 .media {
+    display: block;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border-left-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-left-style: solid;
     border-right-style: solid;
     border-color:rgb(214, 214, 214);
-    border-width: .2px;
+    border-width: .2px; */
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(43, 43, 43);
 }
 
 .social {
@@ -314,6 +352,10 @@ footer {
         display: none;
     }
     .about-p {
+        margin-top: 20px;
+    }
+
+    .about-me-text {
         margin-top: 20px;
     }
 
