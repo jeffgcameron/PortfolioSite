@@ -81,7 +81,7 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 30%;
 }
 
 .nav-title {
@@ -373,6 +373,11 @@ a:hover {
 }
 
 @media screen and (max-width: 900px) {
+
+.logo-center {
+    width: 50%;
+}
+
 .propic {
     width:100%;
 }
@@ -412,6 +417,11 @@ a:hover {
     .dropdown-item:hover {
         opacity: 100%;
         font-weight: bolder;
+    }
+}
+@media screen and (max-width: 550px) {
+    .logo-center {
+        width: 100%;
     }
 }
 
