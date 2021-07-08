@@ -6,9 +6,11 @@
 body {
     /* background-color: rgb(236, 236, 236); */
     background-image: url(./Images/sunsetop.png);
+    /* background-color: rgb(125, 152, 179); */
+    /* background-color: rgb(236, 216, 176); */
     background-size: cover;
     background-position: center;
-     background-attachment: fixed;
+    background-attachment: fixed;
         
 }
 
@@ -98,7 +100,7 @@ margin: auto;
 }
 
 .propic {
-    width: 50%;
+    width: 60%;
     display: block;
     margin-top: 25px;
     margin-right: auto;
@@ -139,6 +141,10 @@ h2 {
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
+      border-bottom-style: solid;
+      border-color: rgb(200, 200, 200);
+      border-width: .5;
+      margin-bottom: 25px;
 }
 
 .section-div {
@@ -159,18 +165,22 @@ h2 {
     padding-bottom: 0;
 }
 
-.gc {
-   
+.about-me-pic {
+    width: 100%;
+    object-fit: cover;
 }
 
 .about-me-div {
     /* background-image: url(./Images/mountain-opacity.png); */
     background-image: url(./Images/deserty\ opacity.png);
-    background-size: cover;
     margin: 0;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    border-top-style:solid;
+    /* border-bottom-style: solid; */
+    border-color: rgb(200, 200, 200);
+    border-width: .5;
 }
 
 /* .about-me-text {
@@ -187,12 +197,10 @@ h2 {
    /* background-image: url(./Images/mountain-opacity.png); */
    /* background-image: url(./Images/oceanopacity.png); */
    background-image: url(./Images/autumn-op.png);
-}
-
-.contact-div {
-    /* background-image: url(./Images/oceanopacity.png); */
-    background-image: url(./Images/autumn-op.png);
-    background-size: cover;
+   border-top-style:solid;
+   /* border-bottom-style: solid; */
+   border-color: rgb(200, 200, 200);
+   border-width: .5;
 }
 
 .section{
@@ -228,6 +236,7 @@ h2 {
 
 .card:hover {
     opacity: 1;
+
 }
 
 .card-text {
@@ -350,12 +359,23 @@ a:hover {
     vertical-align: middle;
 }
 
+/* .social-border {
+    color:rgb(214, 214, 214);
+    font-size: 25px;
+} */
+
 .social:hover {
     color: rgb(43, 43, 43);
 }
 
 .footer-contact {
     margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+.propic {
+    width:100%;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -374,8 +394,8 @@ a:hover {
         margin-top: 20px;
     }
 
-    .gc {
-        width: 50%;
+    .about-me-pic {
+        max-width: 50%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -392,5 +412,19 @@ a:hover {
     .dropdown-item:hover {
         opacity: 100%;
         font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    * {
+        padding-right: 0 !important;
+    }
+
+    .about-me-pic {
+        max-width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
