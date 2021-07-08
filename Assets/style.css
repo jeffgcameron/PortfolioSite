@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    position: relative;
     }
 
 body {
@@ -11,7 +12,6 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-        
 }
 
 header {
@@ -415,10 +415,14 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
-    * {
-        padding-right: 0 !important;
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
     }
 
     .about-me-pic {
