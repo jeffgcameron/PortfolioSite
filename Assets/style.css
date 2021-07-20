@@ -5,10 +5,7 @@
     }
 
 body {
-    /* background-color: rgb(236, 236, 236); */
     background-image: url(./Images/sunsetop.png);
-    /* background-color: rgb(125, 152, 179); */
-    /* background-color: rgb(236, 216, 176); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -171,34 +168,19 @@ h2 {
 }
 
 .about-me-div {
-    /* background-image: url(./Images/mountain-opacity.png); */
     background-image: url(./Images/deserty\ opacity.png);
     margin: 0;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     border-top-style:solid;
-    /* border-bottom-style: solid; */
     border-color: rgb(200, 200, 200);
     border-width: .5;
 }
 
-/* .about-me-text {
-    background-image: url(./Images/deserty\ opacity.png);
-    background-size: cover;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-} */
-
 .portfolio-div {
-   /* background-image: url(./Images/deserty\ opacity.png); */
-   /* background-image: url(./Images/mountain-opacity.png); */
-   /* background-image: url(./Images/oceanopacity.png); */
    background-image: url(./Images/autumn-op.png);
    border-top-style:solid;
-   /* border-bottom-style: solid; */
    border-color: rgb(200, 200, 200);
    border-width: .5;
 }
@@ -221,10 +203,6 @@ h2 {
     margin-right: auto;
     align-items: center;
     border-radius: 5px;
-    /* background-color:   rgba(105, 124, 160, 0.9); */
-    /* background-image: url(./Images/mountain-opacity.png); */
-    /* background-image: url(./Images/deserty\ opacity.png); */
-    /* background-image: url(./Images/oceanopacity.png); */
     background-image: url(./Images/autumn-op.png);
     background-size: cover;
     background-position: center;
@@ -258,14 +236,6 @@ h2 {
 }
 
 .img-thumbnail {
-    /* padding: 0;
-    border: 0;
-    width: 95%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-top: 5px; */
     padding: 5px;
     background-color: transparent;
     border: 0;
@@ -316,9 +286,7 @@ h4 {
 
 footer {
     position: relative;
-    /* display: flex;  */
     align-items: center;
-    /* height: 50px; */
     bottom: 0;
     left: 0;
     right: 0;
@@ -340,10 +308,6 @@ footer {
     margin-right: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* border-left-style: solid;
-    border-right-style: solid;
-    border-color:rgb(214, 214, 214);
-    border-width: .2px; */
 }
 
 a:hover {
@@ -358,11 +322,6 @@ a:hover {
     font-size: 25px;
     vertical-align: middle;
 }
-
-/* .social-border {
-    color:rgb(214, 214, 214);
-    font-size: 25px;
-} */
 
 .social:hover {
     color: rgb(43, 43, 43);
