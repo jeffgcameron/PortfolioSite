@@ -383,17 +383,16 @@ a:hover {
         font-weight: bolder;
     }
 }
+
 @media screen and (max-width: 550px) {
     .logo-center {
         width: 100%;
     }
 }
 
-@media (max-width: 500px) {
-    body.custom-background {
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+@media screen and (max-width: 500px) {
+    .top {
+        background-image: url(./Images/mountain-opacity-mobile.png);
     }
 }
 
