@@ -4,6 +4,11 @@
     position: relative;
     }
 
+html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+}
+
 body {
     background-image: url(./Images/sunsetop.png);
     background-size: cover;
@@ -381,6 +386,14 @@ a:hover {
 @media screen and (max-width: 550px) {
     .logo-center {
         width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    body.custom-background {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
 }
 
