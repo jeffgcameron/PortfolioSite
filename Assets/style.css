@@ -8,7 +8,6 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /* height:100vh; */
 }
 
 header {
@@ -400,5 +399,13 @@ a:hover {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card {
+        border-style: none;
+        background-image: none;
+        background-color: transparent;
     }
 }
