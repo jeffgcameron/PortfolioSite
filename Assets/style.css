@@ -11,9 +11,17 @@ html, body {
 
 body {
     background-image: url(./Images/sunsetop.png);
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%;
 }
 
 header {
@@ -387,12 +395,6 @@ a:hover {
 @media screen and (max-width: 550px) {
     .logo-center {
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .top {
-        background-image: url(./Images/mountain-opacity-mobile.png);
     }
 }
 
