@@ -20,7 +20,7 @@ header {
 .main{
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: rgba(214, 214, 214, 0.75);
+    background-color: rgba(224, 224, 224, 0.8);
 }
 
 nav {
@@ -88,12 +88,12 @@ hr {
     width: 30%;
 }
 
-.nav-title {
+/* .nav-title {
 text-align: center;
 margin: auto;
-}
+} */
 
-.nav-links {
+/* .nav-links {
     color:  white;
     font-family: 'Poppins', sans-serif;
 }
@@ -101,7 +101,7 @@ margin: auto;
 .nav-links:hover {
     color:  rgba(219, 189, 127);
     text-decoration: none;
-}
+} */
 
 .landing {
     height: 100vh;
@@ -194,20 +194,20 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    opacity: .85;
+    opacity: 1;
     text-decoration: none;
     background-color: rgba(105, 124, 160, 0.25);
     border-style: none;
 }
-.card-img-top {
+/* .card-img-top {
     background-image: url(./Images/mountain-opacity.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
+} */
 
 .card:hover {
-    opacity: 1;
+    opacity: .85;
 
 }
 
