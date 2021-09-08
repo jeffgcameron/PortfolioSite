@@ -4,25 +4,23 @@ html, body {
 }
 
 body {
-    background-image: url(./Images/sunsetop.png);
+    background-image: url(./Images/mountain-opacity.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
 }
 
 header {
     position: relative;
     background-color: rgb(49, 84, 119);
-    border-bottom-style: solid;
-    border-color: rgb(200, 200, 200);
-    border-width: .5;
     height: 50px;
     padding-bottom: 25px;
 }
 
-.header {
+.main{
+    padding-top: 25px;
     padding-bottom: 25px;
+    background-color: rgba(214, 214, 214, 0.75);
 }
 
 nav {
@@ -71,13 +69,22 @@ nav {
 }
 
 hr {
-    border-top: 1px solid rgba(219, 189, 127);
+    background-image: url(./Images/mountain-opacity.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 3px;
+}
+
+.space {
+    width: 50px;
+    margin-bottom: 50px;
+    margin-top: 0;
 }
 
 .logo-center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 30%;
 }
 
@@ -96,10 +103,14 @@ margin: auto;
     text-decoration: none;
 }
 
+.landing {
+    height: 100vh;
+}
+
 .propic {
-    width: 60%;
+    height: 50vh;
     display: block;
-    margin-top: 25px;
+    margin-top: 15vh;
     margin-right: auto;
     margin-left: auto;
     border-style: solid;
@@ -117,31 +128,20 @@ h1 {
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
-    font-size: 75px;
+    font-size: 10vh;
     color: rgb(43, 43, 43);
     margin-bottom: 0;
 }
 
 h2 {
     position: relative;
-    font-size: 50px;
+    font-size: 7vh;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
     color: rgb(43, 43, 43);
     font-family: 'Poiret One', cursive;
     padding-bottom: 20px;
-}
-
-.top {
-      background-image: url(./Images/mountain-opacity.png);
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      border-bottom-style: solid;
-      border-color: rgb(200, 200, 200);
-      border-width: .5;
-      margin-bottom: 25px;
 }
 
 .section-div {
@@ -151,12 +151,11 @@ h2 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    line-height: 200px;
+    line-height: 20vh;
     width: 100%;
 }
 
 #about-me {
-    margin-bottom: 25px;
     margin-left: 0;
     margin-right: 0;
     padding-bottom: 0;
@@ -167,49 +166,44 @@ h2 {
     object-fit: cover;
 }
 
-.about-me-div {
-    background-image: url(./Images/deserty\ opacity.png);
-    margin: 0;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    border-top-style:solid;
-    border-color: rgb(200, 200, 200);
-    border-width: .5;
-}
-
-.portfolio-div {
-   background-image: url(./Images/autumn-op.png);
-   border-top-style:solid;
-   border-color: rgb(200, 200, 200);
-   border-width: .5;
-}
-
 .section{
     margin: auto;
+    margin-top: 25px;
     font-size: 50px;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
     color:  rgb(43, 43, 43);
+
 }
 
-.about-me-row {
+/* .about-me-row {
  padding-bottom: 25px;
+} */
+
+
+.title {
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    margin-bottom: 0;
 }
 
 .card{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
-    border-radius: 5px;
-    background-image: url(./Images/autumn-op.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     height: 100%;
     opacity: .85;
     text-decoration: none;
+    background-color: rgba(105, 124, 160, 0.25);
+    border-style: none;
+}
+.card-img-top {
+    background-image: url(./Images/mountain-opacity.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .card:hover {
@@ -219,16 +213,13 @@ h2 {
 
 .card-text {
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 .card-title {
     color: rgb(214, 214, 214); 
     font-family: 'Poiret One', cursive;
     font-weight: bolder;
-}
-
-.card-text {
-    color: rgb(214, 214, 214); 
 }
 
 .card-col {
@@ -242,43 +233,91 @@ h2 {
 }
 
 .btn {
-    color:  rgba(105, 124, 160);
-    background-color: rgb(214, 214, 214);
+    color:  rgba(214, 214, 214);
+    background-color: rgb(49, 84, 119);
     border-style: none;
+    font-family: 'Poiret One', cursive;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
 }
 
 .about-me-area {
     margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .about-me-text {
     font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
 }
 
 .btn:hover {
-background-color: rgb(43, 43, 43);
-color: rgb(214, 214, 214);
+background-color: rgb(214, 214, 214);
+color: rgb(49, 84, 119);
 }
 
 .info {
     margin: 0;
-    margin-left: 10px;
     color:rgb(214, 214, 214);
-    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: normal;
 }
 
 h4 {
     margin-top: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     color:rgb(214, 214, 214);
     font-weight: bold;
     font-family: 'Poiret One', cursive;
 }
 
+form {
+    width: 100%;
+    margin: auto;
+}
+
 .card-text, .card-title {
     color: rgb(43, 43, 43);
 }
+
+#email-input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(35, 31, 32);
+    font-size: 15px !important;
+  }
+
+textarea:focus,
+input[type="text"]:focus,
+textarea[type="text"]:focus,
+input[type="email"]:focus {
+  border-style: none;
+  box-shadow: 0 0 8px rgb(49, 84, 119);
+  outline: 0 none;
+}
+
+.first-pad {
+    padding-right: 2.5px;
+}
+  
+.last-pad {
+    padding-left: 2.5px;
+}
+
+.form-group {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  
 
 .contact-row{
     padding-top: 25px;
@@ -291,10 +330,6 @@ footer {
     left: 0;
     right: 0;
     background-color: rgb(49, 84, 119);
-    border-top-style: solid;
-    border-color: rgb(200, 200, 200);
-    border-width: .5;
-    margin-top: 25px;
 }
 
 .footer-contact {
@@ -331,14 +366,48 @@ a:hover {
     margin: auto;
 }
 
+.media-top {
+    padding-top: 20px ;
+}
+.media-bottom {
+    padding-bottom: 20px;
+}
+
+.thank-you {
+    padding-top: 40vh;
+}
+
+.home {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(35, 31, 32);
+  }
+  
+  .home:hover {
+    color: rgb(49, 84, 119);
+  }
+  
+  .return {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(35, 31, 32);
+  }
+  
+  .return-home {
+    text-decoration: none;
+  }
+  
+  .return-home:hover {
+    text-decoration: none;
+    color: rgb(49, 84, 119) !important;
+  }
+
 @media screen and (max-width: 900px) {
 
 .logo-center {
     width: 50%;
-}
-
-.propic {
-    width:100%;
 }
 }
 
@@ -351,10 +420,6 @@ a:hover {
         display: none;
     }
     .about-p {
-        margin-top: 20px;
-    }
-
-    .about-me-text {
         margin-top: 20px;
     }
 
@@ -376,6 +441,20 @@ a:hover {
     .dropdown-item:hover {
         opacity: 100%;
         font-weight: bolder;
+    }
+
+    .about-me-area {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-me-pic {
+        margin-top: 20px;
+    }
+
+    .form {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -401,12 +480,8 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-@media screen and (max-width: 420px) {
-    .card {
-        border-style: none;
-        background-image: none;
-        background-color: transparent;
+    .propic {
+        height: 40vh;
     }
 }
